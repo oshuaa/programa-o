@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <button onclick="calcAn()">calculo do an</button> 
+   <BR></BR>
+   <button onclick="calcA1()">calculo do A1</button><br>
+   <BR></BR>
+   <button onclick="calcR()">calculo do R</button><br>
+   <BR></BR>
+   <button onclick="calcN()">calculo do N</button><br>
+   <input type="date">
+   <input type="email" placeholder="digite seu email">
+   <input type="passoword"placeholder="digite sua senha">
+</body>
+</html>
+<script>
+    function calcAn(){
+        var a1 = Number(prompt("digite o valor de a1"));
+        var n = Number(prompt("digite o valor de n"));
+        var r = Number(prompt("digite o valor de r"));
+        var an = a1 + (n-1) * r;
+        alert(an);
+    }
+    function calcA1(){
+        var an = Number(prompt("digite o valor de an"));
+        var n = Number(prompt("digite o valor de n"));
+        var r = Number(prompt("digite o valor de r"));
+        var a1 = an - (n-1)* r;
+        alert(a1);
+    }
+    function calcN(){
+        
+    }
+</script> 
